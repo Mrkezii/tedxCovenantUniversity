@@ -1,114 +1,134 @@
-h1,h2,h3,h4,h5,h6,p,label,span,li,a,input{
+h1, h2, h3, h4, h5, h6, p, label, span, li, a, input {
 	font-family: 'Helvetica'!important;
 }
-footer{
-	background-color: #e62b1e;
-	color: #ffffff;
+
+footer {
+	background-color: white;
+	color: black;
 }
-.redfont{
+
+.redfont {
 	color: #e62b1e !important;
 }
-.blackfont{
+
+.blackfont {
 	color: #000 !important;
 }
-.whitefont{
+
+.whitefont {
 	color: #fff !important;
 }
-ul.tedxtopnav{
-	overflow:hidden;
-	color:white;
-	background-color:white;
-	margin:0;
-	padding:20px 20px;
+
+ul.tedxtopnav {
+	overflow: hidden;
+	color: white;
+	background-color: white;
+	margin: 0;
+	padding: 20px 20px;
 	list-style-type: none;
 }
-ul.tedxtopnav li{
-	float:right;
+
+ul.tedxtopnav li {
+	float: right;
 }
-.tedxicon{
-	float:left;
-	margin:15px 0px;
+
+.tedxicon {
+	float: left;
+	margin: 15px 0px;
 	margin-bottom: 15px;
 	overflow: hidden!important;
 	background-size: cover;
 }
 
-ul.tedxtopnav li a{
-	color:black;
-	padding:10px 10px;
+ul.tedxtopnav li a {
+	color: black;
+	padding: 10px 10px;
 	font-size: 12px;
 	font-family: Helvetica;
 	text-align: center;
 	text-decoration: none;
 }
-ul.tedxtopnav li a:hover{
-	color:rgb(230,43,30);
+
+ul.tedxtopnav li a:hover {
+	color: rgb(230, 43, 30);
 }
-.tedxicon{
-	height:50px;
-	width:250px;
+
+.tedxicon {
+	height: 50px;
+	width: 250px;
 }
-.tedx1{
+
+.tedx1 {
 	height: 100%!important;
-	width:100%!important;
+	width: 100%!important;
 }
-ul.menu li a:hover{
-	color:rgb(230,43,30);
-	padding:10px 10px;
+
+ul.menu li a:hover {
+	color: rgb(230, 43, 30);
+	padding: 10px 10px;
 	font-size: 12px;
 	font-family: Helvetica;
 	text-align: center;
 	text-decoration: none;
 }
-ul.menu li a{
+
+ul.menu li a {
 	text-transform: capitalize;
-	color:black;
-	padding:10px 10px;
+	color: black;
+	padding: 10px 10px;
 	font-size: 12px;
 	font-family: Helvetica;
 	text-align: center;
 	text-decoration: none;
 }
-h3{
-	color: rgb(230,43,30);
+
+h3 {
+	color: rgb(230, 43, 30);
 	font-family: 'Open Sans';
 	font-weight: 200;
 }
-.lead{
+
+.lead {
 	font-size: 20px;
 	font-family: 'Helvetica';
 	color: #333;
 }
-.vpe{
+
+.vpe {
 	cursor: pointer;
 }
-.helvetica{
+
+.helvetica {
 	font-family: 'Helvetica'!important;
 }
-.btn2{
+
+.btn2 {
 	font-family: 'Open Sans';
-  transition: 0.1s linear;
-  -webkit-transition: 0.1s linear;
-  -moz-transition: 0.1s linear;
-  border-radius: 100px;
-  padding-top: 0.54166667em;
-  padding-bottom: 0.65em;
-  padding-right: 3.25em;
-  padding-left: 3.25em;
-  border: 1px solid #232323;
-  border-width: 2px;
-  font-size: inherit;
-  line-height: 1.625em;
-  text-transform: uppercase;
-  background-color: white;
-  border-color: transparent;
+	transition: 0.1s linear;
+	-webkit-transition: 0.1s linear;
+	-moz-transition: 0.1s linear;
+	border-radius: 100px;
+	padding-top: 0.54166667em;
+	padding-bottom: 0.65em;
+	padding-right: 3.25em;
+	padding-left: 3.25em;
+	border: 1px solid #232323;
+	border-width: 2px;
+	font-size: inherit;
+	line-height: 1.625em;
+	text-transform: uppercase;
+	background-color: white;
+	border-color: transparent;
 }
+
 .btn:hover {
-  border-color: transparent;
+	border-color: transparent;
 }
-a.btn:hover span{
-  color: rgb(230,43,30);
+
+a.btn:hover span {
+	color: rgb(230, 43, 30);
 }
-.img-circle{
+
+.img-circle {
 	border-radius: 50%;
 }
