@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6, p, label, span, li, a, input {
-	font-family: 'Helvetica'!important;
+	font-family: "Helvetica" !important;
 }
 
 footer {
@@ -9,6 +9,7 @@ footer {
 
 .redfont {
 	color: #e62b1e !important;
+	line-height: 24px;
 }
 
 .blackfont {
@@ -36,7 +37,7 @@ ul.tedxtopnav li {
 	float: left;
 	margin: 15px 0px;
 	margin-bottom: 15px;
-	overflow: hidden!important;
+	overflow: hidden !important;
 	background-size: cover;
 }
 
@@ -59,8 +60,8 @@ ul.tedxtopnav li a:hover {
 }
 
 .tedx1 {
-	height: 100%!important;
-	width: 100%!important;
+	height: 100% !important;
+	width: 100% !important;
 }
 
 ul.menu li a:hover {
@@ -84,13 +85,13 @@ ul.menu li a {
 
 h3 {
 	color: rgb(230, 43, 30);
-	font-family: 'Open Sans';
+	font-family: "Open Sans";
 	font-weight: 200;
 }
 
 .lead {
 	font-size: 20px;
-	font-family: 'Helvetica';
+	font-family: "Helvetica";
 	color: #333;
 }
 
@@ -99,11 +100,11 @@ h3 {
 }
 
 .helvetica {
-	font-family: 'Helvetica'!important;
+	font-family: "Helvetica" !important;
 }
 
 .btn2 {
-	font-family: 'Open Sans';
+	font-family: "Open Sans";
 	transition: 0.1s linear;
 	-webkit-transition: 0.1s linear;
 	-moz-transition: 0.1s linear;
@@ -131,4 +132,36 @@ a.btn:hover span {
 
 .img-circle {
 	border-radius: 50%;
+}
+
+#sign_up {
+	margin: 0;
+}
+
+.speaker {
+	margin: 5% 0 0 0;
+	background-color: white;
+	border: 1px solid;
+	padding-bottom: 15px;
+	/* height: 422px; */
+}
+
+input[type="email"]:not(button), input[type="password"]:not(button), textarea:not(button), select:not(button), input[type="tel"]:not(button), input[type="url"]:not(button), input[type="search"]:not(button) {
+	background: red;
+	border-radius: 0;
+	/* margin: 0 auto; */
+}
+
+.signUp_btn {
+	border-radius: 0;
+	background: black;
+	color: white;
+}
+
+.speaker_image {
+	/* height: 200px;
+	width: 200px; */
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #e62b1e;
 }
