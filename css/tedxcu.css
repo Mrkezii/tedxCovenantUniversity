@@ -139,7 +139,7 @@ a.btn:hover span {
 }
 
 .speaker {
-	margin: 5% 0 0 0;
+	margin: 1% 0 0 0;
 	background-color: white;
 	border: 1px solid;
 	padding-bottom: 15px;
@@ -164,4 +164,11 @@ input[type="email"]:not(button), input[type="password"]:not(button), textarea:no
 	display: block;
 	margin: 0 auto;
 	border: 2px solid #e62b1e;
+}
+
+@media only screen and (max-width: 700PX) {
+	.tedxicon {
+		height: 20px;
+		width: 70px;
+	}
 }
